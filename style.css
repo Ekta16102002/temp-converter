@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://www.enjpg.com/img/2020/aesthetic-desktop-2-e1605818481317.jpg);
+  color: #fff;
+}
+.container {
+  border-radius: 60px;
+  /* background-image: url(https://tse4.mm.bing.net/th?id=OIP.vwoQHA1pn1ssNfEvxHyzIQHaEK&pid=Api&P=0&h=180); */
+  background: #00132ec6;
+  border: 3px #ff0051 solid;
+  display: flex;
+  height: 410px;
+  width: 390px;
+  justify-content: center;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.temp-calculator {
+  width: 100%;
+  padding: 0 20px;
+  margin: 25px 0;
+}
+.title {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #ff0051;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+}
+.temp-value {
+  width: 100%;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.temp-value p {
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+  text-align: left;
+  padding: 10px 0;
+  flex-basis: 42%;
+}
+.temp-value input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  font-size: 14px;
+  border-radius: 60px;
+  color: rgb(255, 255, 255);
+  background: #1053b0;
+  width: 55%;
+  padding: 10px;
+  flex-basis: 55%;
+}
+#degree {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+#degree span {
+  flex-basis: 48%;
+}
+#degree span p {
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+  text-align: left;
+  padding: 5px 10px;
+}
+#degree span select {
+  width: 100%;
+  border: 0;
+  outline: none;
+  font-size: 14px;
+  border-radius: 6px;
+  color: #fff;
+  background: #1053b0;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 60px;
+}
+.btn {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn input {
+  font-size: 16px;
+  background-color: #ff0051;
+  padding: 10px;
+  flex-basis: 45%;
+  color: #fff;
+  flex-wrap: wrap;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 60px;
+}
+.btn input:hover {
+  background-color: #ff005179;
+}
+.temp-value #ans {
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+  text-align: left;
+  padding: 10px 0;
+  flex-basis: 25%;
+}
+.temp-value #result {
+  width: 100%;
+  border: 0;
+  outline: none;
+  font-size: 14px;
+  border-radius: 6px;
+  color: #fff;
+  background: #1053b0;
+  width: 60%;
+  padding: 10px;
+  flex-basis: 70%;
+  border-radius: 60px;
+  cursor: default;
+}
